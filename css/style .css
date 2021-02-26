@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  font-size: 65.2%;
+}
+
+:root {
+  --primary:#4163d4;
+  --text:#0000008f;
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--primary);
+}
+
+.select__option {
+  margin: 0 auto;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #4163d456;
+}
+
+.form__select__lg {
+  font-size: 2rem;
+  padding: 1rem;
+}
+/*# sourceMappingURL=style .css.map */
